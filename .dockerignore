@@ -1,0 +1,32 @@
+# Git & Documentation
+.git/
+.gitignore
+*.md
+
+# Virtual Environment & Python Caches
+.venv/
+env/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment Variables & Secrets (NEVER bake into image!)
+.env
+.env.*
+.env.example
+
+# Testing & Coverage
+tests/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local database files
+*.db
+*.sqlite3
+
+# OS metadata
+.DS_Store
+Thumbs.db
